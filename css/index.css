@@ -80,9 +80,37 @@
     -moz-box-shadow: -2px 5px 5px 0px lightgrey;
 }
 #navbarNavDropdown{
-    justify-content: end;
-   
-    
+    justify-content: center;
+
+     
   
 }
+#navbarNavDropdown li{
+    margin-right: 20px;
+    font-family: arubi;
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
 
+}
+.heading{
+    align-items: center;
+}
+.heading h1{
+font-size: 80px;
+font-family: montizer;
+letter-spacing: 4px;
+}
+.heading h3{
+    font-size: 25px;
+    font-family: montizer;
+    letter-spacing: 1px;
+    }
+@font-face {
+    font-family: montizer;
+    src: url(../font/Web-TT/Monetizer.ttf);
+}
+@font-face {
+    font-family: arubi;
+    src: url(../font/Web-TT/Arubi.ttf);
+}
